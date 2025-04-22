@@ -1,0 +1,5 @@
+Note
+tao cac file
+styles.xml : cau hinh style app
+ids: file viet id ui ma k ghi vao file xml => xu ly logic
+integer: cau hinh style theo int (giong file string)
