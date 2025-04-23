@@ -64,6 +64,7 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
+    implementation(libs.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
@@ -118,6 +119,11 @@ dependencies {
     // AndroidX JUnit & test rules
     androidTestImplementation("androidx.test.ext:junit:1.1.1")
     androidTestImplementation("androidx.test:rules:1.2.0")
+    implementation ("androidx.security:security-crypto:1.1.0-alpha06")
+    implementation ("com.google.code.gson:gson:2.13.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
+
 
 
 

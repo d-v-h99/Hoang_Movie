@@ -2,6 +2,7 @@ package com.example.hoang_movie.sorting;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.widget.RadioGroup;
@@ -14,6 +15,7 @@ import com.example.hoang_movie.BaseApplication;
 import com.example.hoang_movie.R;
 import com.example.hoang_movie.databinding.SortingOptionsBinding;
 import com.example.hoang_movie.listing.MoviesListingPresenter;
+import com.example.hoang_movie.login.ActivityLogin;
 
 import javax.inject.Inject;
 
@@ -67,7 +69,11 @@ public class SortingDialogFragment extends DialogFragment implements SortingDial
         } else if (checkedId == R.id.favorites) {
             sortingDialogPresenter.onFavoritesSelected();
             moviesListingPresenter.firstPage();
-        } else {
+        }else if(checkedId == R.id.login){
+            Intent intent = new Intent(getActivity(), ActivityLogin.class);
+            startActivity(intent);
+        }
+        else {
             sortingDialogPresenter.onNewestMoviesSelected();
             moviesListingPresenter.firstPage();
         }

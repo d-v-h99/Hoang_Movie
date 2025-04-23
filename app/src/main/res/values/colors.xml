@@ -5,4 +5,51 @@
     <color name="colorAccent">#ffc701</color>
     <color name="black_translucent_60">#99000000</color>
     <color name="window_background">#282828</color>
+    <!-- PURPLE & DEEP PURPLE -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="deep_purple_500">#FF673AB7</color>
+
+    <!-- BLUE & LIGHT BLUE -->
+    <color name="blue_500">#FF2196F3</color>
+    <color name="indigo_500">#FF3F51B5</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+
+    <!-- TEAL & CYAN -->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="cyan_500">#FF00BCD4</color>
+
+    <!-- GREEN & LIME -->
+    <color name="green_500">#FF4CAF50</color>
+    <color name="lime_500">#FFCDDC39</color>
+
+    <!-- ORANGE & DEEP ORANGE -->
+    <color name="orange_500">#FFFF9800</color>
+    <color name="amber_500">#FFFFC107</color>
+    <color name="deep_orange_600">#FFF75C08</color> <!-- Custom gần giống Deep Orange -->
+
+    <!-- RED & PINK -->
+    <color name="red_500">#FFF44336</color>
+    <color name="pink_500">#FFE91E63</color>
+
+    <!-- GRAY, BLUE GRAY, BLACK, WHITE -->
+    <color name="gray_500">#FF9E9E9E</color>
+    <color name="gray_700">#FF676767</color>
+    <color name="gray_100">#FFF2F2F2</color>
+    <color name="blue_gray_500">#FF607D8B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- OVERLAY / CUSTOM -->
+    <color name="black_overlay_40">#66000000</color>
+
+    <color name="orange">#f75c08</color>
+    <color name="gray">#676767</color>
+    <color name="bg_gray">#F2F2F2</color>
+    <color name="black_overlay">#66000000</color>
 </resources>
